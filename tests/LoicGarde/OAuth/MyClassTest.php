@@ -2,7 +2,7 @@
 
 namespace LoicGarde\OAuth ;
 
-class MyClassTest extends PHPUnit_Framework_TestCase {
+class MyClassTest extends \PHPUnit_Framework_TestCase {
     
      public function testAdd() {
          $myClass = new MyClass ;
