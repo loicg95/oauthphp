@@ -1,0 +1,22 @@
+{
+    "name": "loicg95/oauthphp",
+    "type": "library",
+    "description": "OAuth client lib for Php",
+    "keywords": ["oauth", "client", "php"],
+    "homepage": "http://github.com/loicg95/oauthphp",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Loic Garde",
+            "email": "loic.garde@gmail.com",
+        }
+    ],
+    "require": {
+        "php": ">=5.3.0"
+    },
+    "autoload": {
+        "psr-0": {
+            "LoicGarde": "src/"
+        }
+    }
+}
