@@ -1,6 +1,6 @@
 <?php
 
-namespace LoicGarde\OAuth ;
+/*namespace LoicGarde\OAuth ;
 
 class MyClassTest extends \PHPUnit_Framework_TestCase {
     
@@ -11,6 +11,6 @@ class MyClassTest extends \PHPUnit_Framework_TestCase {
          $c = $a + $b ;
          $this->assertEquals($c,$myClass->add($a, $b)) ; 
      } 
-}
+}*/
 
 ?>

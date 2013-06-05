@@ -16,7 +16,7 @@
     },
     "autoload": {
         "psr-0": {
-            "LoicGarde": "src/"
+            "Loicg95": "src/"
         }
     }
 }
