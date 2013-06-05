@@ -12,8 +12,8 @@ class Utils {
     } else {
         return '';
     }
+ }
 }
-    
-}
+   
 
 ?>
