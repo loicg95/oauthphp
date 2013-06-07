@@ -19,3 +19,7 @@ before_script:
 # omitting "script:" will default to phpunit
 # use the $DB env variable to determine the phpunit.xml to use
 script: phpunit --configuration phpunit.xml --coverage-text
+
+notifications:
+  email:
+    - loic.garde+travis-ci@gmail.com
