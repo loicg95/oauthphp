@@ -17,7 +17,7 @@ class UtilsTest extends \PHPUnit_Framework_TestCase {
          $arrayExpected = array( "hello%25hola%20toto%7Eeee", "hello%25hola%20totoeee" ) ;
          $arrayOut = Utils::urlencode($arrayIn) ;
          $this->assertEquals( count($arrayExpected) , count($arrayOut)) ;
-         for ($i = 1; $i <= count($arrayExpected); $i++) {
+         for ($i = 1; $i < count($arrayExpected); $i++) {
              $this->assertEquals( $arrayExpected[$i], $arrayOut[$i] ) ;
          }
      }
