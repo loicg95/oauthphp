@@ -23,7 +23,7 @@ class UtilsTest extends \PHPUnit_Framework_TestCase {
      }
      
      public function testNonScalarEncode() {
-         $this->assertEquals("''",Utils::urlencode(NULL)) ;
+         $this->assertEquals('',Utils::urlencode(NULL)) ;
      }
 }
 
