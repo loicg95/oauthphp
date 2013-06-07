@@ -19,4 +19,4 @@ script: phpunit --configuration phpunit.xml --coverage-text
 
 notifications:
   email:
-    - loic.garde+travis-ci@gmail.com
+    - loic.garde@gmail.com

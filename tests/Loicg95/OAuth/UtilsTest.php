@@ -21,6 +21,10 @@ class UtilsTest extends \PHPUnit_Framework_TestCase {
              $this->assertEquals( $arrayExpected[$i], $arrayOut[$i] ) ;
          }
      }
+     
+     public function testNonScalarEncode() {
+         $this->assertEquals("''",Utils::urlencode(NULL)) ;
+     }
 }
 
 
