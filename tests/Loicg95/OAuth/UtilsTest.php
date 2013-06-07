@@ -11,6 +11,16 @@ class UtilsTest extends \PHPUnit_Framework_TestCase {
      public function testUrlEncode() {
          $this->assertEquals("hello%25hola%20totoeee" ,Utils::urlencode("hello%hola totoeee" )) ; 
      } 
+     
+     public function testUrlEncodeArrays() {
+         $arrayIn = array("hello%hola toto~eee", "hello%hola totoeee");
+         $arrayExpected = array( "hello%25hola%20toto%7Eeee", "hello%25hola%20totoeee" ) ;
+         $arrayOut = Utils::urlencode($arrayIn) ;
+         $this->assertEquals( count($arrayExpected) , count($arrayOut)) ;
+         for ($i = 1; $i <= count($arrayExpected); $i++) {
+             $this->assertEquals( $arrayExpected[$i], $arrayOut[$i] ) ;
+         }
+     }
 }
 
 
